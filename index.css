@@ -291,15 +291,11 @@ align-items: center;
    
 }
 
-.bestsellermain{}
-
 .bestseller{
     margin: 60px 0px;
     font-family: 'Gilroy';
 }
-.imgbest{
-    
-}
+
 
 .footermain{
     width: 100%;
@@ -591,4 +587,76 @@ nav{
 }
 .footerarrow{
     display: none;
+}
+
+.booksslideritem1 {
+    background-image: url("./assestes/The-Book-of-Everlasting-Things-by-Aanchal-Malhotra.jpg");
+    width: 200px;
+    height: 295px;
+    border-radius: 70px;
+    outline: 4px solid black;
+    background-size: cover;
+    box-shadow: 0px 8px 27px -2px #c2c2c2;
+    margin-right: 30px;
+}
+.booksslideritem2{
+    background-image:url("./assestes/The-House-of-Eve-by-Sadeqa-Johnson1.jpg") ;
+    width: 200px;
+    height: 295px;
+    border-radius: 70px;
+    outline: 4px solid black;
+    background-size: cover;
+    box-shadow: 0px 8px 27px -2px #c2c2c2;
+    margin-right: 30px;
+}
+.booksslideritem3{
+    background-image:url("./assestes/The-Lipstick-Bureau1.jpg") ;
+    width: 200px;
+    height: 295px;
+    border-radius: 70px;
+    outline: 4px solid black;
+    background-size: cover;
+    box-shadow: 0px 8px 27px -2px #c2c2c2;
+    margin-right: 30px;
+        
+}
+.booksslideritem1:hover {
+  
+    box-shadow: 0px 8px 27px -2px #3f6ba1;
+}
+.booksslideritem2:hover{
+
+    box-shadow: 0px 8px 27px -2px #3f6ba1;
+}
+.booksslideritem3:hover{
+
+    box-shadow: 0px 8px 27px -2px #3f6ba1;
+    
+        
+}
+.booksslidermainpart2{
+    display: flex;
+    background-color: #3b3636a8;
+    max-width: 90vw;
+    margin: auto;
+    padding: 20px;
+    border-radius: 46px;
+
+}
+.booksslidermainpart1{
+    font-size: 12px;
+    color: white;
+    font-family: 'Gilroy';
+    padding-left: 50px;
+}
+.booksslidermainpart1 h3 span{
+ 
+    color: #3f6ba1;
+   
+}
+
+.booksslider{
+    margin: 60px 0px;
+    font-family: 'Gilroy';
+    
 }
