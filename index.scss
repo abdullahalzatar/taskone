@@ -6,7 +6,7 @@
   font-family: "Gilroy";
   background-repeat: no-repeat;
   background-size: cover;
-  .navbar {
+  .header-main__top--navbar {
     display: flex;
     padding-top: 10px;
     align-items: center;
@@ -29,11 +29,11 @@
     }
   }
 
-  .lang1 {
+  .header-main__top--navbar__att {
     display: flex;
   }
 
-  .lang a {
+  .header-main__top--navbar__languagebox a {
     float: right;
   }
 
@@ -43,11 +43,11 @@
     width: 100%;
   }
 
-  .hidhr {
+  .header-main__hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .langsel {
+  .header-main__top__select {
     background-color: rgba(255, 255, 255, 0);
     border-color: transparent;
     color: rgba(255, 255, 255, 0.6);
@@ -61,7 +61,7 @@
     }
   }
 
-  .navbar2 {
+  .header-main__mid--navbar__att {
     display: flex;
     text-align: right;
     align-items: center;
@@ -86,7 +86,7 @@
     }
   }
 
-  .navbara2 {
+  .header-main__mid--navbar {
     display: flex;
     text-align: right;
     align-items: center;
@@ -101,7 +101,7 @@
       }
     }
 
-    .nav2div {
+    .header-main__mid--navbar__searchbox {
       display: flex;
       align-items: center;
       a {
@@ -125,7 +125,7 @@
     }
   }
 
-  .butnav {
+  .header-main__mid--navbar--btn {
     background-color: #3f6ba1;
     height: 36px;
     border-radius: 100px;
@@ -139,7 +139,7 @@
     margin: 5px;
   }
 
-  .divsecmain {
+  .header-main__mid {
     overflow: hidden;
     height: 180px;
     position: relative;
@@ -147,7 +147,7 @@
     margin: auto;
   }
 
-  .divsecmain1 {
+  .header-main__bot {
     display: flex;
     overflow: hidden;
     position: relative;
@@ -155,7 +155,7 @@
     padding: 50px;
   }
 
-  .divsecmai2 {
+  .header-main__bot-welcome {
     display: flex;
     max-width: 85vw;
     color: white;
@@ -176,7 +176,7 @@
   margin: 60px 0px;
   font-family: "Gilroy";
 
-  .bestselleritem1 {
+  .bestseller-main__cardbook--firstitem {
     background-image: url("./assestes/The-Book-of-Everlasting-Things-by-Aanchal-Malhotra.jpg");
     width: 200px;
     height: 295px;
@@ -188,7 +188,7 @@
       box-shadow: 0px 8px 27px -2px #3f6ba1;
     }
   }
-  .bestselleritem2 {
+  .bestseller-main__cardbook--secitem {
     background-image: url("./assestes/The-House-of-Eve-by-Sadeqa-Johnson1.jpg");
     width: 200px;
     height: 295px;
@@ -200,7 +200,7 @@
       box-shadow: 0px 8px 27px -2px #3f6ba1;
     }
   }
-  .bestselleritem3 {
+  .bestseller-main__cardbook--therditem {
     background-image: url("./assestes/The-Lipstick-Bureau1.jpg");
     width: 200px;
     height: 295px;
@@ -213,7 +213,7 @@
     }
   }
 
-  .bestsellermainpart2 {
+  .bestseller-main__cardbook {
     display: flex;
     justify-content: space-around;
     background-color: #3b3636a8;
@@ -222,7 +222,7 @@
     padding: 20px;
     border-radius: 46px;
   }
-  .bestsellermainpart1 {
+  .bestseller-main__title {
     text-align: center;
     font-size: 24px;
     color: white;
@@ -241,9 +241,9 @@
   margin: 60px 0px;
   font-family: "Gilroy";
 
-  .booksslideritem1 {
+  .booksslider-main__cardbook--firstitem {
     background-image: url("./assestes/The-Book-of-Everlasting-Things-by-Aanchal-Malhotra.jpg");
-    width: 200px;
+    min-width: 200px;
     height: 295px;
     border-radius: 70px;
     outline: 4px solid black;
@@ -254,9 +254,9 @@
       box-shadow: 0px 8px 27px -2px #3f6ba1;
     }
   }
-  .booksslideritem2 {
+  .booksslider-main__cardbook--secitem {
     background-image: url("./assestes/The-House-of-Eve-by-Sadeqa-Johnson1.jpg");
-    width: 200px;
+    min-width: 200px;
     height: 295px;
     border-radius: 70px;
     outline: 4px solid black;
@@ -267,9 +267,9 @@
       box-shadow: 0px 8px 27px -2px #3f6ba1;
     }
   }
-  .booksslideritem3 {
+  .booksslider-main__cardbook--therditem {
     background-image: url("./assestes/The-Lipstick-Bureau1.jpg");
-    width: 200px;
+    min-width: 200px;
     height: 295px;
     border-radius: 70px;
     outline: 4px solid black;
@@ -281,15 +281,19 @@
     }
   }
 
-  .booksslidermainpart2 {
+  .booksslider-main__cardbook {
     display: flex;
     background-color: #3b3636a8;
     max-width: 90vw;
     margin: auto;
     padding: 20px;
     border-radius: 46px;
+    overflow: auto;
+    &::-webkit-scrollbar{
+        display: none;
+    }
   }
-  .booksslidermainpart1 {
+  .booksslider-main__title {
     font-size: 12px;
     color: white;
     font-family: "Gilroy";
@@ -306,7 +310,7 @@
 
 .footer {
  
-  .footermain2 {
+  .footer-main {
     width: 100%;
     background-color: #3b3636a8;
     font-family: "Gilroy";
@@ -317,13 +321,7 @@
     padding: 100px 108px 100px 108px;
   }
 
-  .footerconitem11 {
-    width: 100%;
-    color: #ffffff;
-    font-size: 13px;
-  }
-
-  .footerconitem {
+   .footerconitem {
     padding-left: 30px;
     width: 314px;
     h5 {
@@ -359,11 +357,11 @@
     margin-right: 234px;
   }
 
-  .footercon1 {
+  .footer-main__icons {
     padding: 30px 108px 30px 154px;
   }
 
-  .footercon2 {
+  .footer-main__icons--top {
     display: flex;
     padding-bottom: 30px;
   }
@@ -374,7 +372,7 @@
     font-size: 13px;
   }
 
-  .footerconitem2 {
+  .footer-main__icons--top--item  {
     width: 100%;
     color: #ffffff;
     font-size: 13px;
@@ -390,7 +388,7 @@
     }
   }
 
-  .fhf2 {
+  .footer-main__icons-hr {
     border: none;
     border-left: 1px solid #e6e6e6;
     height: 70px;
@@ -402,7 +400,7 @@
     padding-left: 29px;
   }
 
-  .fhf3 {
+  .footer-main__icons--bot--hr {
     border: none;
     border-left: 1px solid rgba(255, 255, 255, 0.2);
     height: 20px;
@@ -414,11 +412,11 @@
     margin-left: 20px;
   }
 
-  .flangdiv1 {
+  .footer-main__icons--bot--navbar__firstdiv {
     display: flex;
   }
 
-  .MLdiv {
+  .footer-main__icons--top--contact {
     display: flex;
 
     select {
@@ -436,7 +434,7 @@
     }
   }
 
-  .flangdiv {
+  .footer-main__icons--bot--navbar__secdiv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -450,7 +448,7 @@
     display: flex;
   }
 
-  .fnavbar {
+  .footer-main__icons--bot--navbar {
     display: flex;
     padding-top: 30px;
     text-align: right;
@@ -473,15 +471,15 @@
     }
   }
 
-  .Badges img {
+  .footer-main__icons--top--item--Badges img {
     margin-right: 5px;
   }
 
-  .footercon3 {
+  .footer-main__icons--bot {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
 
-  .backtotop {
+  .footer-main__socialmedia {
     display: flex;
     align-items: center;
     p {
@@ -494,14 +492,14 @@
     display: none;
   }
 
-  .footerp1 {
+  .footer-main__mobbackbox {
     display: none;
   }
 
-  .footerp0 {
+  .footer-main__backbox {
     display: block;
   }
-  .backtotop0 {
+  .footer-main__icons--bot--navbar__secdiv--main {
     display: flex;
   }
   .footerarrow {
