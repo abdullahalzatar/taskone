@@ -179,6 +179,7 @@
 .bestseller {
   margin: 60px 0px;
   font-family: "Gilroy";
+  padding-bottom: 25px;
 
   .bestseller-main__cardbook--firstitem {
     background-image: url("./assestes/The-Book-of-Everlasting-Things-by-Aanchal-Malhotra.jpg");
@@ -205,7 +206,7 @@
     }
   }
   .bestseller-main__cardbook--therditem {
-    background-image: url("./assestes/The-Lipstick-Bureau1.jpg");
+    background-image: url("./assets/The-Lipstick-Bureau1.jpg");
     width: 200px;
     height: 295px;
     border-radius: 70px;
@@ -246,39 +247,39 @@
   font-family: "Gilroy";
 
   .booksslider-main__cardbook--firstitem {
-    background-image: url("./assestes/The-Book-of-Everlasting-Things-by-Aanchal-Malhotra.jpg");
+    background-image: url("./assets/The-Book-of-Everlasting-Things-by-Aanchal-Malhotra.jpg");
     min-width: 200px;
     height: 295px;
-    border-radius: 70px;
+    border-radius: 10px;
     outline: 4px solid black;
     background-size: cover;
-    box-shadow: 0px 8px 27px -2px #c2c2c2;
+    box-shadow: 0px 8px 27px -2px #606060;
     margin-right: 20px;
     &:hover {
       box-shadow: 0px 8px 27px -2px #3f6ba1;
     }
   }
   .booksslider-main__cardbook--secitem {
-    background-image: url("./assestes/The-House-of-Eve-by-Sadeqa-Johnson1.jpg");
+    background-image: url("./assets/The-House-of-Eve-by-Sadeqa-Johnson1.jpg");
     min-width: 200px;
     height: 295px;
-    border-radius: 70px;
+    border-radius: 10px;
     outline: 4px solid black;
     background-size: cover;
-    box-shadow: 0px 8px 27px -2px #c2c2c2;
+    box-shadow: 0px 8px 27px -2px #606060;
     margin-right: 20px;
     &:hover {
       box-shadow: 0px 8px 27px -2px #3f6ba1;
     }
   }
   .booksslider-main__cardbook--therditem {
-    background-image: url("./assestes/The-Lipstick-Bureau1.jpg");
+    background-image: url("./assets/The-Lipstick-Bureau1.jpg");
     min-width: 200px;
     height: 295px;
-    border-radius: 70px;
+    border-radius: 10px;
     outline: 4px solid black;
     background-size: cover;
-    box-shadow: 0px 8px 27px -2px #c2c2c2;
+    box-shadow: 0px 8px 27px -2px #606060;
     margin-right: 30px;
     &:hover {
       box-shadow: 0px 8px 27px -2px #3f6ba1;
@@ -293,6 +294,9 @@
     padding: 20px;
     border-radius: 46px;
     overflow: auto;
+    background-image: url("./assets/Rows.png");
+    background-repeat: no-repeat;
+    background-position: center;
     &::-webkit-scrollbar {
       display: none;
     }
@@ -563,7 +567,7 @@
     font-family: "Gilroy";
   
     .bestseller-main__cardbook--firstitem {
-        background-image: url("./assestes/The-Book-of-Everlasting-Things-by-Aanchal-Malhotra.jpg");
+        background-image: url("./assets/The-Book-of-Everlasting-Things-by-Aanchal-Malhotra.jpg");
         min-width: 200px;
         height: 295px;
         border-radius: 70px;
@@ -576,7 +580,7 @@
       }
     }
     .bestseller-main__cardbook--secitem {
-      background-image: url("./assestes/The-House-of-Eve-by-Sadeqa-Johnson1.jpg");
+      background-image: url("./assets/The-House-of-Eve-by-Sadeqa-Johnson1.jpg");
       min-width: 212px;
       height: 295px;
       border-radius: 70px;
@@ -589,7 +593,7 @@
       }
     }
     .bestseller-main__cardbook--therditem {
-      background-image: url("./assestes/The-Lipstick-Bureau1.jpg");
+      background-image: url("./assets/The-Lipstick-Bureau1.jpg");
       min-width: 212px;
     height: 295px;
     border-radius: 70px;
