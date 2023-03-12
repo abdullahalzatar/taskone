@@ -643,6 +643,7 @@
     padding-top: 0px;
     text-align: left;
     justify-content: space-between;
+    border-top: 0px;
   }
   .footer .footer-main__icons--bot--navbar a {
     display: flex;
