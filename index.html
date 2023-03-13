@@ -59,7 +59,7 @@
                             <hr>
                             </hr>
                         </a>
-                        <a href="#perosn"><img src="./assets/Person-User.png"></img></a>
+                        <a href="#perosn" style="display: contents;"><p class="usarname"></p><img src="./assets/Person-User.png"></img></a>
                         <a href="#perosn"><button class="header-main__mid--navbar--btn">Apply for e-Visa</button></a>
                     </div>
                 </nav>
@@ -217,7 +217,7 @@
                     <nav class="footer-main__icons--bot--navbar">
                         <div class="footer-main__icons--bot--navbar__firstdiv">
                             <a href="#Contactus">Contact us</a>
-                            <a href="#StartChat">Privacy Policy</a>
+                  (          <a href="#StartChat">Privacy Policy</a>
                             <a href="#Cookies">Cookies</a>
                             <a href="#TermsandConditions">Termsand Conditions</a>
                         </div>
@@ -249,6 +249,13 @@
             </div>
     </footer>
 
+    <script>
+       const resp = window.prompt("Enter your name");
+       document.getElementsByClassName("usarname")[0].innerHTML = resp;
+       console.log(resp);
+
+
+        </script> 
 </body>
 
 </html>
