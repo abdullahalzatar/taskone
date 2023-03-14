@@ -57,9 +57,10 @@ input[type=text]:focus {
 .main {
   padding: 30px;
   font-family: "Gilroy";
+  background-image: linear-gradient(rgba(249, 249, 248, 0), rgb(0, 0, 0));
 }
 
-.main2 {
+.mainlist {
   padding: 30px;
   background-color: rgba(59, 54, 54, 0.6588235294);
   border-radius: 20px;
