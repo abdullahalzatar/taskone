@@ -531,6 +531,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
+ 
   /* header*/
 
   .header {
@@ -561,7 +562,9 @@
       padding: 20px;
     }
   }
+
   /* best */
+
   .bestseller {
     margin: 60px 0px;
     font-family: "Gilroy";
@@ -615,7 +618,9 @@
         overflow: auto;
         justify-content: flex-start;
       }}
+  
   /* footer*/
+
   .footer {
     .footer-main__icons {
       padding: 0px;
@@ -759,4 +764,7 @@
       margin-bottom: 20px;
     }
   }
+  
 }
+
+
