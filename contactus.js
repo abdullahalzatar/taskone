@@ -1,24 +1,43 @@
-const form = document.querySelector("#inviteForm");
-const input = document.querySelector("input");
+const form = document.querySelector(".inviteForm");
+
+const firstname = document.getElementsByClassName("firstname");
+const email = document.getElementsByClassName("email");
+const feed = document.getElementsByClassName("feed");
 const main = document.querySelector(".main");
-const ul = document.querySelector("#invitedList");
+const ul = document.querySelector(".invitedList");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-
+ 
   const li = createLi();
 
-  if (input.value === "") {
+  if (feed[0].value === "" || email[0].value === "" || firstname[0].value === "" ) {
     alert("Enter the name please!!!");
   } else {
     ul.appendChild(li);
+    const user = new User(firstname[0].value,email[0].value,feed[0].value );
+    if(localStorage.getItem("User") != null){
+      const userArr = [localStorage.getItem("User")];
+      userArr.push(user);
+      localStorage.setItem("User", JSON.stringify(userArr))
+    }
+    else{
+    localStorage.setItem("User", [JSON.stringify(user)])}
+    
   }
 });
+
+function User(firstname, email,feed) {
+  this.firstname = firstname;
+  this.email = email;
+  this.feed = feed;
+  
+}
 
 function createLi() {
   const li = document.createElement("li");
   const span = document.createElement("span");
-  span.textContent = input.value;
+  span.textContent = feed[0].value;
   const editBtn = document.createElement("button");
   editBtn.textContent = "edit";
   const removeBtn = document.createElement("button");

@@ -88,16 +88,17 @@
                     </div>
                     <main class="mainlist">	
                       
-                        <form id="inviteForm">
+                        <form class="inviteForm">
                             
                             <div>
-                          <input type="text" name="name" placeholder="Write Your Feed Back Here">
-                          <button type="submit" name="submit" value="submit">Submit</button>
+                                <div class="namebox">
+                                    <input type="text" class="firstname" placeholder="Write Your Name ...">
+                                    <input type="text" class="email" placeholder="Write Your Email ..."></div>
+                          <input type="text" class="feed" placeholder="Write Your Feed Back ...">
+                          <div style="display: flex; justify-content: right;"><button type="submit" name="submit" value="submit">Submit</button></div>
                         </div>
                         </form>
-                        <ul id="invitedList">
-                          
-                        </ul>
+                       
     
                       </main>
                 </div>
@@ -106,7 +107,18 @@
 
     </header>
 
-    <body>
+    <body class="body">
+        <div class="main" style="background-color: rgb(0, 0, 0);">
+          
+            <main class="mainlist">	
+
+                <ul class="invitedList" style="list-style: none;">
+                    
+                </ul>
+    
+              </main>
+        </div>
+        
         
         <script src="./contactus.js"></script>
     </body>
