@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(249, 249, 248, 0), rgb(0, 0, 0)), url(./assets/Library.jpg);
+  font-family: "Gilroy";
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.maincard {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-around;
+}
+.maincard .carddiv {
+  height: 135px;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.3607843137);
+  display: block;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: white;
+  margin-bottom: 20px;
+}
+.maincard .title {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding-top: 13px;
+}
+.maincard .rank {
+  display: flex;
+  justify-content: center;
+}
+.maincard .price {
+  display: flex;
+  justify-content: center;
+}
+
+.cryptocurrency .main .title h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=cryptocurrency.css.map */
